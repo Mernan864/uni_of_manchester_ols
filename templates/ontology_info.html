@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ontology Information</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    </head>    
+    <div class="container">
+        <h1>Ontology Information</h1>
+        <p><strong>Title:</strong> {{ ontology_info.title }}</p>
+        <p><strong>Description:</strong> {{ ontology_info.description }}</p>
+        <p><strong>Number of Terms:</strong> {{ ontology_info.num_terms }}</p>
+        <p><strong>Status:</strong> {{ ontology_info.status }}</p>
+        <a href="/">Back to Search</a>
+    </div>
+</body>
+</html>
