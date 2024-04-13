@@ -18,7 +18,7 @@ class OntologyLookupService:
             return response.json()
         else:
             return None
-
+        
     def get_ontology_info(self, ontology_id):
         ontology_data = self.fetch_ontology_details(ontology_id)
 
@@ -36,6 +36,16 @@ class OntologyLookupService:
             }
         else:
             return None
+            
+@app.route('/ontology/<ontology_id>', methods=['GET'])
+def ontology_details(ontology_id):
+    ols = OntologyLookupService()
+    ontology_info = ols.get_ontology_info(ontology_id)
+
+    if ontology_info:
+        return jsonify(ontology_info)
+    else:
+        abort(404, description="Ontology ID not recognized or service unavailable.")
 
 @app.route('/', methods=['GET', 'POST'])
 def index():

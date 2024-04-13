@@ -54,3 +54,12 @@ Additional Notes:
 
 This application relies on the EBI OLS API for ontology data. Ensure you have a stable internet connection to fetch ontology details.
 Handle errors gracefully and provide meaningful error messages to the users for a better user experience.
+
+To Run In Terminal:
+
+    python app.py
+    python cli.py
+
+    Enter an ontology ID:
+    Information is printed into the terminal.
+    
