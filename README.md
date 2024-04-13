@@ -42,11 +42,12 @@ Run the Application:
 
     Open a web browser and navigate to http://127.0.0.1:5000/ to access the Ontology Lookup Tool.
 
-    Usage:
-        Enter an ontology ID into the search field.
-        Choose the desired output format (human-readable or machine-readable).
-        Click the "Submit" button to retrieve ontology information.
-        View the detailed ontology information on the results page.
+Usage:
+    
+Enter an ontology ID into the search field.
+Choose the desired output format (human-readable or machine-readable).
+Click the "Submit" button to retrieve ontology information.
+View the detailed ontology information on the results page.
 
 Additional Notes:
 
