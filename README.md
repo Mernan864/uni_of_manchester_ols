@@ -48,7 +48,7 @@ Run the Application:
         Click the "Submit" button to retrieve ontology information.
         View the detailed ontology information on the results page.
 
-Additional Notes
+Additional Notes:
 
-    This application relies on the EBI OLS API for ontology data. Ensure you have a stable internet connection to fetch ontology details.
-    Handle errors gracefully and provide meaningful error messages to the users for a better user experience.
+This application relies on the EBI OLS API for ontology data. Ensure you have a stable internet connection to fetch ontology details.
+Handle errors gracefully and provide meaningful error messages to the users for a better user experience.
