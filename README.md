@@ -1,11 +1,12 @@
 Ontology Lookup Tool
 
 The Ontology Lookup Tool is a web application built with Flask that allows users to search for ontology information using ontology IDs. It leverages the European Bioinformatics Institute (EBI) Ontology Lookup Service (OLS) API to retrieve details about specified ontologies.
+
 Features:
 
-    Search by Ontology ID: Users can input an ontology ID into the search field and retrieve detailed information about the ontology.
-    Output Formats: Users can choose between human-readable and machine-readable formats for displaying ontology information.
-    Error Handling: The application handles errors gracefully, providing user-friendly error messages when necessary.
+Search by Ontology ID: Users can input an ontology ID into the search field and retrieve detailed information about the ontology.
+Output Formats: Users can choose between human-readable and machine-readable formats for displaying ontology information.
+Error Handling: The application handles errors gracefully, providing user-friendly error messages when necessary.
 
 Prerequisites
 
