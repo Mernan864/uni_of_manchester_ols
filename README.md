@@ -21,18 +21,18 @@ Setup and Usage
 
     bash
 
-git clone <repository_url>
-cd into repository
+    git clone <repository_url>
+    cd into repository
 
 Install Dependencies:
 
-bash
+    bash
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 Run the Application:
 
-bash
+    bash
 
     python app.py
 
